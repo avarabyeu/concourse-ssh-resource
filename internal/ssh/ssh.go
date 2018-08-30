@@ -17,7 +17,7 @@ import (
 	"github.com/henry40408/concourse-ssh-resource/internal/placeholder"
 )
 
-const defaultTimeout = 60 * 10 // = 10 minutes
+const defaultTimeout = 60 * 30 // = 10 minutes
 
 // PerformSSHCommand runs command on remote machine via SSH.
 // It puts script into file on remote machine, and runs it with interpreter.
